@@ -24,7 +24,7 @@ def find_trio_elfs(calculated_list: list) -> int:
     calculated_list.sort()
     calculated_list.reverse()
     return sum(calculated_list[:3])
-    
+
 def main():
     elf_list = calc_eachelf_sum('input.txt')
     kkalest_elf = find_most_kkal_elf(elf_list)
